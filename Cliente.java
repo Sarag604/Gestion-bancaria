@@ -20,4 +20,13 @@ public class Cliente {
         return nombre;
     }
 
+    public String getIdentificacion() {
+        return identificacion;
+
+    }
+
+    public String mostrarInfo() {
+        return "Nombre " + nombre + " y su identificacion es " + identificacion;
+    }
+
 }
