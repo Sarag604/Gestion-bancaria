@@ -42,6 +42,10 @@ public class Vuelo {
         return destino;
     }
 
+    public int getPasajerosActuales() {
+        return pasajerosActuales;
+    }
+
     // metodo para agregar pasajeros
     public void setAgregaPasajeros(int agregaPasajeros) {
         int capacidadMaxima = aeronave.getCapacidad();
